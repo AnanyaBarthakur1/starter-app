@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "id": "177693d0-e75b-11ec-8bc3-13fb94047f66",
+  "version": "0.0.1",
+  "packageName": "learnteams",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://33a8-2001-4898-80e8-1-1d5a-3bd6-6a5-b632.ngrok.io",
+    "privacyUrl": "https://33a8-2001-4898-80e8-1-1d5a-3bd6-6a5-b632.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://33a8-2001-4898-80e8-1-1d5a-3bd6-6a5-b632.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "learn-teams",
+    "full": "learn-teams"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+
+    {
+      "entityId": "personalTab",
+      "name": "Personal Tab ",
+      "contentUrl": "https://33a8-2001-4898-80e8-1-1d5a-3bd6-6a5-b632.ngrok.io/<personalTab>/personal.html",
+      "websiteUrl": "https://33a8-2001-4898-80e8-1-1d5a-3bd6-6a5-b632.ngrok.io",
+      "scopes": ["personal"]
+  }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "33a8-2001-4898-80e8-1-1d5a-3bd6-6a5-b632.ngrok.io"
+  ],
+  "showLoadingIndicator": false
+}
